@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - file: "data/content.json"
+        label: "Homepage Data"
+        name: "homepage"
+        fields:
+          - label: "Updates"
+            name: "updates"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Text", name: "text", widget: "string" }
+          - label: "Offers"
+            name: "offers"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Detail", name: "detail", widget: "text" }
+          - label: "Notices"
+            name: "notices"
+            widget: "list"
+            fields:
+              - { label: "Date", name: "date", widget: "date" }
+              - { label: "Content", name: "content", widget: "text" }

@@ -1,0 +1,14 @@
+{
+  "updates": [
+    { "date": "2025-05-01", "text": "New academic session starts from 10th May." },
+    { "date": "2025-04-25", "text": "Sports day on 30th April – all parents invited." }
+  ],
+  "offers": [
+    { "title": "Early Bird Discount", "detail": "10% off on fee for first 50 admissions." },
+    { "title": "Sibling Concession", "detail": "5% fee reduction for second child." }
+  ],
+  "notices": [
+    { "date": "2025-05-12", "content": "School will remain closed on 15th May due to staff training." },
+    { "date": "2025-05-05", "content": "PTM schedule for classes 1-5 on Saturday." }
+  ]
+}
